@@ -2,12 +2,13 @@
 #include <math.h>
 
 int main(void) {
-	int a[i],t=0,s;
-	for(i=0;i<4;i++)
+	int a[100],t=0,s,i,n;
+	scanf("%d",&n);
+	for(i=0;i<n;i++)
 	{
 		scanf("%d",&a[i]);
 	}
-	for(i=0;i<4;i++)
+	for(i=0;i<n;i++)
 	{
 		if(a[i]%2==0)
 		{
